@@ -10,7 +10,7 @@ int main(void)
 {
 	double a[N];
 	int ind;
-	cout << "Array" << endl;
+	cout << "Array #1" << endl;
 	inp_m(a, N);
 	otr(a, N);
 	cout << endl << "Result:" << endl;
