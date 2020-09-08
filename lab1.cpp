@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#define N 10
+#define N 20
 
 void inp_m(double*, int);
 int search(double*, int);
@@ -10,7 +10,7 @@ int main(void)
 {
 	double a[N];
 	int ind;
-	cout << "Array #1" << endl;
+	cout << "Array ###1" << endl;
 	inp_m(a, N);
 	otr(a, N);
 	cout << endl << "Result:" << endl;
@@ -25,7 +25,7 @@ int main(void)
 double &otr(double a[], int n)
 {
 		int i = 0;
-		for (int i = 0; i < 10; i++)
+		for (int i = 0; i < N; i++)
 		if (a[i] < 0) {
 			a[i] = a[i] * a[i];
 		}
